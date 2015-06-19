@@ -26,6 +26,9 @@ import base64
 from json import loads
 
 
+
+__version__ = "0.1.0"
+
 PY_MAJOR = sys.version_info[0]
 PY_MINOR = sys.version_info[1]
 PY2 = PY_MAJOR == 2
